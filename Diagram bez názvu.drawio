@@ -4,39 +4,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Vstup poloměru" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="95" y="180" width="173" height="48" as="geometry" />
-        </mxCell>
         <mxCell id="6" value="Výpočet obvodu * 2 * π * r" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="70" y="320" width="224" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="9C4o_JoS77tuQ_077C_d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="9C4o_JoS77tuQ_077C_d-21">
+        <mxCell id="9C4o_JoS77tuQ_077C_d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="9C4o_JoS77tuQ_077C_d-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="176" y="940" as="targetPoint" />
+            <mxPoint x="181" y="478" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="tikni Výsledek obvodu" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="91" y="430" width="180" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" edge="1">
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="181.49999999999977" y="228.0000000000001" as="sourcePoint" />
             <mxPoint x="181" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;" parent="1" source="6" target="7" edge="1">
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;" parent="1" source="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint x="181" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9C4o_JoS77tuQ_077C_d-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9C4o_JoS77tuQ_077C_d-13" target="2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9C4o_JoS77tuQ_077C_d-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9C4o_JoS77tuQ_077C_d-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="181.49999999999977" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9C4o_JoS77tuQ_077C_d-13" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="142" y="30" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9C4o_JoS77tuQ_077C_d-21" value="END" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="141" y="570" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9C4o_JoS77tuQ_077C_d-24" value="Tiskni Výsledek" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9C4o_JoS77tuQ_077C_d-25" value="Zadej vstup&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
